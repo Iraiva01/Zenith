@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="16dp">
+
+    <!-- Search input for fast keyboard-based navigation -->
+        <EditText
+        android:id="@+id/search_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_hint"
+        android:textColorHint="#888888"
+        android:textColor="@color/white"
+        android:background="@null"
+        android:textSize="20sp"
+        android:paddingBottom="16dp"
+        android:paddingTop="32dp"
+        android:fontFamily="@font/orbitron"
+        android:singleLine="true"
+        android:imeOptions="actionDone"/>
+
+    <!-- App list containing only text labels -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/app_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="32dp" />
+
+</LinearLayout>

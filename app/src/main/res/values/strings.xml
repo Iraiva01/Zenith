@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Zenith</string>
+    <string name="search_hint">Search apps...</string>
+    <string name="friction_message">Taking a mindful breath...</string>
+</resources>
