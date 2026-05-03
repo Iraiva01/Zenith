@@ -1,4 +1,4 @@
-# 🌑 Zenith Launcher
+# 🚀 Zenith Launcher
 
 **Reach the highest point of focus.**
 
@@ -9,6 +9,7 @@ Zenith is a minimalist, monochrome Android launcher designed for those who want 
 ---
 
 ## 🧘 The Philosophy
+
 Modern smartphones are designed to grab and hold your attention. Zenith is designed to do the opposite. It is a "friction-forward" launcher that treats your apps as tools, not as distractions.
 
 - **No Icons:** Eliminates the dopamine hit from colorful app branding.
@@ -20,20 +21,33 @@ Modern smartphones are designed to grab and hold your attention. Zenith is desig
 ## ✨ Key Features
 
 ### 🕒 Clock Arc View
+
 A custom, geometric clock widget that features a circular arc updating smoothly with the seconds. It serves as the single point of focus on your home screen.
 
 ### 🔍 Keyboard-First Navigation
+
 Swiftly launch apps by typing. The app list is optimized for speed, allowing you to filter and launch without ever taking your eyes off the text.
 
 ### 🧠 Mindful Friction
+
 Configured apps (like social media) are met with a 2-second delay and a reminder to take a breath. This small moment of friction is enough to break the cycle of "zombie scrolling."
 
+### 📱 Gestures & Interactions
+
+Designed to feel as natural as breathing, Zenith utilizes gesture-based navigation tailored for rapid and muscle-memory-driven interactions:
+- **Swipe Right:** Fluidly transition to the minimalist App List.
+- **Swipe Up:** Instantly pull up your preferred Search Engine with a satisfying expansion animation.
+- **Swipe Down:** Reveal your System Notifications effortlessly.
+- **Double Tap:** Securely lock the screen (Supports biometric unlocking via AccessibilityService fallback).
+
 ### 🔋 Extreme Performance
+
 Built with pure Java and zero heavy dependencies, Zenith is incredibly lightweight, ensuring a snappy experience even on older devices.
 
 ---
 
 ## 🛠️ Technical Stack
+
 - **Language:** Java 8+
 - **Platform:** Android (Min SDK 26)
 - **Architecture:** Feature-based modular structure (`core`, `data`, `ui`, `util`)
@@ -45,14 +59,18 @@ Built with pure Java and zero heavy dependencies, Zenith is incredibly lightweig
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Android Studio Hedgehog or newer
 - Android SDK 26+
 
 ### Installation
+
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Iraiva01/Zenith.git
    ```
+
 2. Open the project in **Android Studio**.
 3. Build and run on your device or emulator.
 4. Set Zenith as your **Default Home App**.
@@ -60,10 +78,12 @@ Built with pure Java and zero heavy dependencies, Zenith is incredibly lightweig
 ---
 
 ## 🤝 Contributing
+
 Zenith is an open-source project. If you'd like to contribute to the mission of digital mindfulness, feel free to open a PR or report an issue.
 
 ## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
 ---
 *Created with 🧠 and ❤️ by [Iraiva01](https://github.com/Iraiva01)*
