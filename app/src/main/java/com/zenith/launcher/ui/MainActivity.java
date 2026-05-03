@@ -2,8 +2,10 @@ package com.zenith.launcher.ui;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
+import android.view.View;
 
 import com.zenith.launcher.R;
 import com.zenith.launcher.core.ThemeEngine;
@@ -43,5 +45,12 @@ public class MainActivity extends AppCompatActivity {
         } else if (viewPager.getCurrentItem() == 0) { // If on Home
             // Do nothing, already on home
         }
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        // Overriding the pending transition in the finish method as requested
+        overridePendingTransition(0, R.anim.slide_out_down);
     }
 }
